@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+.user {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.user img {
+	width: 128px;
+	height: 128px;
+}
+
+.test_box_wrap {
+    width: 703px;
+    float: left;
+    height: 100%;
+    background: rgba(225, 225, 225, 0);
+}
+
+.right_btn {
+	width: 10%;
+    float: left;
+}
+
+.left_btn {
+	width: 10%;
+    float: left;
+}
+
+.carousel_wrap {
+	width: 100%;
+	margin: 6em auto 0 auto;
+	height: 100%;
+	clear: both;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slide_btn {
+	float: left;
+	width: 18%;
+	padding: 1em;
+	border: 1px solid;
+}
+
+.start {
+	height: 45px;
+	width: 100px;
+	border: none;
+	background: #ccc;
+	color: #fff;
+
+}
+
+input {
+    width: 77%;
+    padding: 1em;
+    border: 1px solid;
+    height: 21px;
+}
+
+
+.TestBox {
+  cursor: all-scroll;
+  background: yellow;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 2em;
+  width: 229px;
+  height: 300px;
+  float: left;
+  margin: 0.1em;
+  animation: fade-in 0.5s linear;
+}
+
+
+@keyframes fade-in {
+  from { opacity: 0; transform: scale(0.7); }
+  to { opacity: 1;  }
+}
+
+
+
